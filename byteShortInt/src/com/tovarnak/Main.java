@@ -27,7 +27,7 @@ public class Main {
         System.out.println("myNewLongValue = " + myNewLongValue);
 
         //
-        //              *****EXERCISE*****
+        //                      *****EXERCISE*****
         //
         //  1. Create a 'byte' variable and set it to any valid byte number.
         //  2. Create a 'short' variable and set it to any valid short number.
