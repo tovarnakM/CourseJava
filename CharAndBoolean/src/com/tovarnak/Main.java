@@ -19,8 +19,5 @@ public class Main {
 
         char myNewChar = '\u00AE';
         System.out.println("Variable myNewChar consists from unicode " + myNewChar);
-
-
-
     }
 }
