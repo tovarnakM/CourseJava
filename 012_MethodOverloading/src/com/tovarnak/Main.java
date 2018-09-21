@@ -3,6 +3,13 @@ package com.tovarnak;
 public class Main {
 
     public static void main(String[] args) {
+        //  Advantages of overloading methods
+        //  - is a feature that allows us to have more than 1 method with the same name, but with different parameters
+        //  - multiple methods with the same name with difficulty implementations
+        //  - easy to remember 1 method
+        //  - improves code readability and re-usability
+
+
         int newScore = calculateScore("Markus",500);
         System.out.println("New score is " + newScore);
         calculateScore();
@@ -34,8 +41,6 @@ public class Main {
 
 
         calcFeetAndInchesToCentimeters(100);
-
-
     }
 
     public static double calcFeetAndInchesToCentimeters(double inches){
