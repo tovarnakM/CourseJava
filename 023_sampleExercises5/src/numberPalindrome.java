@@ -1,7 +1,7 @@
 public class numberPalindrome {
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome(-23232));
+        System.out.println(isPalindrome(-454));
     }
 
     public static boolean isPalindrome(int number) {
@@ -15,15 +15,15 @@ public class numberPalindrome {
             num = num / 10;
             counter++;
         }
-        System.out.println(counter);
+
         num = Math.abs(number);
         for (int i = 0; i < counter; i++) {
             digit = num % 10;
             num = num / 10;
             reverse = reverse + digit * ((int) Math.pow(10, counter - (i + 1)));
-            //System.out.println(reverse);
+
         }
-        if (reverse == number) {
+        if (reverse == Math.abs(number)) {
             return true;
         }
         return false;
