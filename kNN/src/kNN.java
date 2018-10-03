@@ -9,7 +9,7 @@ public class kNN {
     public static void main(String[] args) throws Exception {
 
         //load csv document
-        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Acer/Desktop/dataset.csv"));
+        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Acer/Desktop/a.csv"));
         List<String> lines = new ArrayList<>();
         String line = null;
         while ((line = reader.readLine()) != null) {
@@ -41,17 +41,23 @@ public class kNN {
             }
         }
 
-        //parameter of attributes
-        Object[][] data = new Object[][] {
-                { "100420", Boolean.FALSE, "Des Moines IA", "Spokane WA",
-                        "02/06/2000", 450f,"sdadsdsd","sdasd",null,null,null,null,null,null,null,null,null,null},
-                { "202174", Boolean.TRUE, "Basking Ridge NJ", "Princeton NJ",
-                        "05/20/2000", 1250f,"sdadsds","sdsss","202174", Boolean.TRUE, "Basking Ridge NJ", "Princeton NJ","202174", Boolean.TRUE, "Basking Ridge NJ", "Princeton NJ",null,null},
-                { "450877", Boolean.TRUE, "St. Paul MN", "Austin TX",
-                        "03/20/2000", 1745f,"dsadsd","dsdasd",null,null,null,"202174", Boolean.TRUE, "Basking Ridge NJ", "Princeton NJ",null,"sdas"},
-                { "101891", Boolean.FALSE, "Boston MA", "Albany NY",
-                        "04/04/2000", 88f,"sdasd","idfdij","202174", Boolean.TRUE, "Basking Ridge NJ", "Princeton NJ","202174", Boolean.TRUE,null,null, "Basking Ridge NJ", "Princeton NJ"}
-        };
+        Object[][] data = new Object[header.length+10][lines.size()+10];
+        for (int i = 0; i < lines.size() - 1; i++){
+            counter = 0;
+            myString = "";
+            for (int j = 0; j < lines.get(i+1).length(); j++){
+                if ((lines.get(i+1).charAt(j) != ';')) {
+                    myString = myString + lines.get(i+1).charAt(j);
+                }else {
+                    data[i][counter] = myString;
+                    counter++;
+                    myString = "";
+                }
+                if (j == lines.get(i+1).length() - 1){
+                    data[i][counter] = myString;
+                }
+            }
+        }
 
         //create the data model and the JTable
         JTable table = new JTable(data,header);
