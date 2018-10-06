@@ -45,8 +45,7 @@ public class kNN {
             }
         }
 
-
-        Object[][] data = new Object[header.length][lines.size()+1];
+        Object[][] data = new Object[lines.size()][header.length];
         for (int i = 0; i < lines.size() - 1; i++){
             counter = 0;
             myString = "";
