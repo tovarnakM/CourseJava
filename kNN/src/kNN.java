@@ -6,10 +6,14 @@ import java.util.List;
 
 public class kNN {
 
+    //static Object[][] data;
+    static int[][] arrayCisel;
+    static int rows;
+    static int columns;
     public static void main(String[] args) throws Exception {
 
         //load csv document
-        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Acer/Desktop/a.csv"));
+        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Acer/Desktop/DATA1.csv"));
         List<String> lines = new ArrayList<>();
         String line = null;
         while ((line = reader.readLine()) != null) {
@@ -41,7 +45,8 @@ public class kNN {
             }
         }
 
-        Object[][] data = new Object[header.length+10][lines.size()+10];
+
+        Object[][] data = new Object[header.length][lines.size()+1];
         for (int i = 0; i < lines.size() - 1; i++){
             counter = 0;
             myString = "";
@@ -58,17 +63,29 @@ public class kNN {
                 }
             }
         }
+        arrayCisel = new int[lines.size()-1][header.length-2];
+        for (int i = 0; i < lines.size() - 1; i++){
+            for (int j = 1; j < header.length - 1; j++){
+                arrayCisel[i][j-1] = Integer.parseInt((String) data[i][j]);
+            }
+        }
+        rows = lines.size()-1;
+        columns = lines.size()-2;
 
         //create the data model and the JTable
-        JTable table = new JTable(data,header);
-
-        JFrame frame = new JFrame("Zadanie");
-        frame.add(new JScrollPane(table));
-
-        frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-        frame.setSize(1000, 200);
+//        JTable table = new JTable(data,header);
+//
+//        JFrame frame = new JFrame("Zadanie");
+//        frame.add(new JScrollPane(table));
+//        frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+//        frame.setSize(1000, 200);
+//        frame.setVisible(true);
+        JFrame frame = new JFrame("uz");
+        frame.setSize(1000,700);
         frame.setVisible(true);
-
+        Draw draw = new Draw();
+        frame.add(draw);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
 }
