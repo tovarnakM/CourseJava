@@ -7,6 +7,7 @@ import java.util.List;
 public class kNN {
 
     //static Object[][] data;
+    static Object[][] data;
     static int[][] arrayCisel;
     static int rows;
     static int columns;
@@ -45,7 +46,7 @@ public class kNN {
             }
         }
 
-        Object[][] data = new Object[lines.size()][header.length];
+        data = new Object[lines.size()][header.length];
         for (int i = 0; i < lines.size() - 1; i++){
             counter = 0;
             myString = "";
@@ -62,14 +63,14 @@ public class kNN {
                 }
             }
         }
-        arrayCisel = new int[lines.size()-1][header.length-2];
-        for (int i = 0; i < lines.size() - 1; i++){
-            for (int j = 1; j < header.length - 1; j++){
-                arrayCisel[i][j-1] = Integer.parseInt((String) data[i][j]);
-            }
-        }
+//        arrayCisel = new int[lines.size()-1][header.length-2];
+//        for (int i = 0; i < lines.size() - 1; i++){
+//            for (int j = 1; j < header.length - 1; j++){
+//                arrayCisel[i][j-1] = Integer.parseInt((String) data[i][j]);
+//            }
+//        }
         rows = lines.size()-1;
-        columns = lines.size()-2;
+        System.out.println(rows);
 
         //create the data model and the JTable
 //        JTable table = new JTable(data,header);
