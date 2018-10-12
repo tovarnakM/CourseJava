@@ -8,18 +8,24 @@ public class Draw extends JPanel {
         this.setBackground(Color.white);
         graphics.drawRect(1,1,980,658);
         graphics.setColor(Color.black);
+        int widthHeight = 10;
         for (int i = 0; i < kNN.rows; i++){
             int x = Integer.parseInt((String) kNN.data[i][1]);
             int y = Integer.parseInt((String) kNN.data[i][2]);
             String CLASS = (String) kNN.data[i][3];
                 if (CLASS.equals("Bad")) {
                     graphics.setColor(Color.red);
-                    graphics.fillRect(x * 100, y * 70, 30, 30);
+                    graphics.fillRect(x * 50, y * 50, widthHeight, widthHeight);
                 }
                 if (CLASS.equals("Good")) {
                     graphics.setColor(Color.green);
-                    graphics.fillRect(x * 100, y * 70, 30, 30);
+                    graphics.fillRect(x * 50, y * 50, widthHeight, widthHeight);
             }
         }
+        graphics.setColor(Color.black);
+        graphics.fillRect(kNN.x*50, kNN.y*50,widthHeight,widthHeight);
+        graphics.setColor(Color.black);
+        graphics.drawOval((kNN.x*50-kNN.dist),(kNN.y*50-kNN.dist),kNN.dist*2,kNN.dist*2);
+
     }
 }

@@ -2,15 +2,16 @@ import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class kNN {
 
-    //static Object[][] data;
+    static int x,y,k;
+    static int dist;
     static Object[][] data;
-    static int[][] arrayCisel;
     static int rows;
-    static int columns;
     public static void main(String[] args) throws Exception {
 
         //load csv document
@@ -28,7 +29,6 @@ public class kNN {
                 attribute++;
             }
         }
-
         //write header into table
         String[] header = new String[attribute+1];
         int counter = 0;
@@ -46,7 +46,7 @@ public class kNN {
             }
         }
 
-        data = new Object[lines.size()][header.length];
+        data = new Object[lines.size()-1][header.length];
         for (int i = 0; i < lines.size() - 1; i++){
             counter = 0;
             myString = "";
@@ -63,14 +63,28 @@ public class kNN {
                 }
             }
         }
-//        arrayCisel = new int[lines.size()-1][header.length-2];
-//        for (int i = 0; i < lines.size() - 1; i++){
-//            for (int j = 1; j < header.length - 1; j++){
-//                arrayCisel[i][j-1] = Integer.parseInt((String) data[i][j]);
-//            }
-//        }
         rows = lines.size()-1;
-        System.out.println(rows);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter x: ");
+        x = scanner.nextInt();
+
+        System.out.println("Enter y: ");
+        y = scanner.nextInt();
+
+        System.out.println("Enter k: (k <=" + data.length + ")");
+        k = scanner.nextInt();
+
+        double[] distance = new double[data.length];
+        for (int i = 0; i < data.length; i++){
+            double X = Double.parseDouble((String) data[i][1]);
+            double Y = Double.parseDouble((String) data[i][2]);
+            distance[i] = Math.sqrt(Math.pow(X-x,2) + Math.pow(Y-y,2));
+        }
+
+        Arrays.sort(distance);
+        dist = (int) (distance[k-1]*50);
+
 
         //create the data model and the JTable
 //        JTable table = new JTable(data,header);
