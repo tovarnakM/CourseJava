@@ -15,15 +15,16 @@ public class Draw extends JPanel {
             String CLASS = (String) kNN.data[i][3];
                 if (CLASS.equals("Bad")) {
                     graphics.setColor(Color.red);
-                    graphics.fillRect(x * 50, y * 50, widthHeight, widthHeight);
+                    graphics.fillRect(x*50-widthHeight/2, y*50-widthHeight/2, widthHeight, widthHeight);
+
                 }
                 if (CLASS.equals("Good")) {
                     graphics.setColor(Color.green);
-                    graphics.fillRect(x * 50, y * 50, widthHeight, widthHeight);
+                    graphics.fillRect(x * 50-widthHeight/2, y * 50-widthHeight/2, widthHeight, widthHeight);
             }
         }
         graphics.setColor(Color.black);
-        graphics.fillRect(kNN.x*50, kNN.y*50,widthHeight,widthHeight);
+        graphics.fillRect(kNN.x*50-widthHeight/2, kNN.y*50-widthHeight/2,widthHeight,widthHeight);
         graphics.setColor(Color.black);
         graphics.drawOval((kNN.x*50-kNN.dist),(kNN.y*50-kNN.dist),kNN.dist*2,kNN.dist*2);
 

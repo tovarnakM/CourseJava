@@ -15,7 +15,7 @@ public class kNN {
     public static void main(String[] args) throws Exception {
 
         //load csv document
-        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Acer/Desktop/DATA1.csv"));
+        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/Acer/Desktop/a.csv"));
         List<String> lines = new ArrayList<>();
         String line = null;
         while ((line = reader.readLine()) != null) {
@@ -76,24 +76,44 @@ public class kNN {
         k = scanner.nextInt();
 
         double[] distance = new double[data.length];
+        double[] distance1 = new double[data.length];
         for (int i = 0; i < data.length; i++){
             double X = Double.parseDouble((String) data[i][1]);
             double Y = Double.parseDouble((String) data[i][2]);
             distance[i] = Math.sqrt(Math.pow(X-x,2) + Math.pow(Y-y,2));
+            distance1[i] = Math.sqrt(Math.pow(X-x,2) + Math.pow(Y-y,2));
         }
 
+        double[] distanceSorted = new double[k];
         Arrays.sort(distance);
+        for (int i = 0; i < k; i++){
+            distanceSorted[i] = distance[i];
+        }
+
+        int counterBad = 0;
+        int counterGood = 0;
+        for (int i = 0; i < k; i++){
+            for (int j = 0; j < data.length; j++){
+                if (distanceSorted[i] == distance1[j]){
+                    if (data[j][3].equals("Bad")){
+                        counterBad++;
+                    }
+                    if (data[j][3].equals("Good")){
+                        counterGood++;
+                    }
+                }
+            }
+        }
+        if (counterBad < counterGood){
+            System.out.println("Entered data are belonging to \"Good\" class");
+        }else if (counterBad > counterGood){
+            System.out.println("Entered data are belonging to \"Bad\" class");
+        }else {
+            System.out.println("We can not decided, where are our data belonging");
+        }
+
         dist = (int) (distance[k-1]*50);
 
-
-        //create the data model and the JTable
-//        JTable table = new JTable(data,header);
-//
-//        JFrame frame = new JFrame("Zadanie");
-//        frame.add(new JScrollPane(table));
-//        frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-//        frame.setSize(1000, 200);
-//        frame.setVisible(true);
         JFrame frame = new JFrame("uz");
         frame.setSize(1000,700);
         frame.setVisible(true);
