@@ -19,12 +19,14 @@ public class Main {
         // You will want to create various code in the Main class (the one created by IntelliJ ) to confirm your code is working
         // Add some System.out.println´s in the two methods above as well
 
+        //BankAccount bankAccount = new BankAccount("1234",1000.0,"IgorSavko","mail@tuke.sk","+421918857585");
         BankAccount bankAccount = new BankAccount();
-        bankAccount.setCustomerName("Martin Tovarnak");
-        bankAccount.setAcBalance(1000);
-        bankAccount.setEmail("tovarnakM@gmail.com");
-        bankAccount.setPhoneNumber("0918 857 890");
-        bankAccount.setAcNumber("SK0254518481988");
+
+//        bankAccount.setCustomerName("Martin Tovarnak");
+//        bankAccount.setAcBalance(1000);
+//        bankAccount.setEmail("tovarnakM@gmail.com");
+//        bankAccount.setPhoneNumber("0918 857 890");
+//        bankAccount.setAcNumber("SK0254518481988");
 
         System.out.println("Name: " + bankAccount.getCustomerName());
         System.out.println("Email: " + bankAccount.getEmail());

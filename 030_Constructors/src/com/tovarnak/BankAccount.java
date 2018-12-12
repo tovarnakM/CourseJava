@@ -8,6 +8,26 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public BankAccount(){
+        //call constructor below
+        this("123",500,"Buddy","buddy@gmail.com","545454");
+        System.out.println("1. constructor");
+    }
+
+    public BankAccount(String acNumber, double acBalance, String customerName, String email, String phoneNumber){
+        this("10101010101");
+        System.out.println("2. constructor");
+        this.acNumber = acNumber;
+        this.acBalance = acBalance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+    public BankAccount(String acNumber){
+        this.acNumber = acNumber;
+        System.out.println("3. constructor");
+    }
+
     public void setAcNumber(String acNumber){
         this.acNumber = acNumber;
     }
