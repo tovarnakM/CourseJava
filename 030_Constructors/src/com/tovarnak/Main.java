@@ -20,8 +20,7 @@ public class Main {
         // Add some System.out.println´s in the two methods above as well
 
         //BankAccount bankAccount = new BankAccount("1234",1000.0,"IgorSavko","mail@tuke.sk","+421918857585");
-        BankAccount bankAccount = new BankAccount();
-
+        BankAccount bankAccount = new BankAccount("Markus","mato@gmail.com","0918555444");
 //        bankAccount.setCustomerName("Martin Tovarnak");
 //        bankAccount.setAcBalance(1000);
 //        bankAccount.setEmail("tovarnakM@gmail.com");
