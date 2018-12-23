@@ -1,5 +1,7 @@
 package com.tovarnak;
 
+import java.text.DecimalFormat;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,7 +11,6 @@ public class Main {
         // be added to the burgers and pricing.
         // We want to create a base hamburger, but also two other types of hamburgers that are popular ones in Bills store.
         // The basic hamburger should have the following items.
-
         // Bread roll type, meat and up to 4 additional additions (things like lettuce, tomato, carrot, etc) that
         // the customer can select to be added to the burger.
         // Each one of these items gets charged an additional price so you need some way to track how many items got added
@@ -32,5 +33,27 @@ public class Main {
         // burger (base price + all additions)
         // For the two additional classes this may require you to be looking at the base class for pricing and then
         // adding totals to final price.
+
+
+
+        BaseHamburger hamburger = new BaseHamburger("white","pork", new Additions(false,false,true,true));
+        hamburger.getAdditions();
+        System.out.println();
+
+        hamburger.hamburgerComposition();
+        DecimalFormat df = new DecimalFormat("0.00");
+        System.out.println("Hamburger price is " + df.format(hamburger.getHamburgerPrice())  + " eur");
+        System.out.println();
+
+        HealthyBurger healthyBurger = new HealthyBurger("pork",new Additions(true,true,true,true),true,true);
+        healthyBurger.hamburgerComposition();
+        System.out.println(healthyBurger.getHamburgerPrice());
+        System.out.println();
+
+        Deluxe deluxe = new Deluxe("white","pork",true,true);
+        deluxe.getAdditions();
+        System.out.println(deluxe.getHamburgerPrice());
+        deluxe.hamburgerComposition();
+
     }
 }
