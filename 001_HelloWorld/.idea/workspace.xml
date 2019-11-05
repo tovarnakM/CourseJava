@@ -1,80 +1,507 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35458a95-c03b-4354-8328-713779dab0ad" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="73becdb9-fe18-4577-99ab-063d6d40e1a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001_HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../002_Variables/src/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/byteShortInt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/out/production/byteShortInt/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002_ByteShortInt/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/FloatAndDouble.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/out/production/FloatAndDouble/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003_FloatAndDouble/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/CharAndBoolean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/out/production/CharAndBoolean/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../004_CharAndBoolean/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/Strings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/out/production/Strings/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../005_Strings/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/Operators.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/out/production/Operators/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../006_Operators/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/KeywordsAndExpressions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/out/production/KeywordsAndExpressions/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../007_KeywordsAndExpressions/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/out/production/StatementsWhiteSpaceAndIndenting/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../008_StatementsWhiteSpaceAndIndenting/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/out/production/IfKeywordAndCodeBlocks/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../009_IfKeywordAndCodeBlocks/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/10_Methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/out/production/10_Methods/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../010_Methods/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/011_sampleExamples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/out/production/011_sampleExamples/barkingDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/out/production/011_sampleExamples/decimalComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/out/production/011_sampleExamples/hasEqualSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/out/production/011_sampleExamples/leapYearCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/out/production/011_sampleExamples/megaBytesConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/out/production/011_sampleExamples/secondsAndMinutesChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/out/production/011_sampleExamples/teenNumberChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/src/barkingDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/src/decimalComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/src/hasEqualSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/src/leapYearCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/src/megaBytesConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../011_sampleExercises1/src/teenNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/MethodOverloading.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/out/production/MethodOverloading/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../012_MethodOverloading/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/013_secondsAndMinutesChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/out/production/013_secondsAndMinutesChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../013_secondsAndMinutesChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/014_sampleExercises2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/out/production/014_sampleExercises2/areaCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/out/production/014_sampleExercises2/equalityPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/out/production/014_sampleExercises2/minutesToYearsAndDaysCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/out/production/014_sampleExercises2/playingCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/src/areaCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/src/equalityPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/src/minutesToYearsAndDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../014_sampleExercises2/src/playingCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/015_switch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/out/production/015_switch/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../015_switch/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/016_dayOfTheWeekChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/out/production/016_dayOfTheWeekChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../016_dayOfTheWeekChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/017_sampleExercises3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/out/production/017_sampleExercises3/numberInWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/out/production/017_sampleExercises3/numberOfDaysInMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/src/numberInWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../017_sampleExercises3/src/numberOfDaysInMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/018_forLoop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/out/production/018_forLoop/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../018_forLoop/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/019_sum3and5Challenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/out/production/019_sum3and5Challenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../019_sum3and5Challenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../020_sampleExercises4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../020_sampleExercises4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../020_sampleExercises4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../020_sampleExercises4/020_sampleExercises4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../020_sampleExercises4/out/production/020_sampleExercises4/sumOdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../020_sampleExercises4/src/sumOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/021_while.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/out/production/021_while/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../021_while/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/022_digitSumChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/out/production/022_digitSumChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../022_digitSumChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/023_sampleExercises5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/allFactors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/evenDigitSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/firstAndLastDigitSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/greatestCommonDivisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/lastDigitChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/numberPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/numberToWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/perfectNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/out/production/023_sampleExercises5/sharedDigit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/allFactors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/evenDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/firstAndLastDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/greatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/lastDigitChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/numberPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/numberToWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/perfectNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../023_sampleExercises5/src/sharedDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/024_parsingValuesFromString.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/out/production/024_parsingValuesFromString/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../024_parsingValuesFromString/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/025_sampleExercises6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/out/production/025_sampleExercises6/diagonalStar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/out/production/025_sampleExercises6/flourPackProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/out/production/025_sampleExercises6/largestPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/src/diagonalStar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/src/flourPackProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../025_sampleExercises6/src/largestPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/026_ReadingUserInput.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/out/production/026_ReadingUserInput/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../026_ReadingUserInput/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/027_readingUserInputChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/out/production/027_readingUserInputChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../027_readingUserInputChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/028_minimumAndMaximumChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/out/production/028_minimumAndMaximumChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../028_minimumAndMaximumChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/029_Classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/out/production/029_Classes/com/tovarnak/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/out/production/029_Classes/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/src/com/tovarnak/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../029_Classes/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/030_Constructors.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/out/production/030_Constructors/com/tovarnak/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/out/production/030_Constructors/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/src/com/tovarnak/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../030_Constructors/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/031_ChallengeConstructors.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/out/production/031_ChallengeConstructors/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/out/production/031_ChallengeConstructors/com/tovarnak/VipCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../031_ChallengeConstructors/src/com/tovarnak/VipCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/032_Inheritance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/out/production/032_Inheritance/com/tovarnak/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/out/production/032_Inheritance/com/tovarnak/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/out/production/032_Inheritance/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/src/com/tovarnak/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/src/com/tovarnak/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/src/com/tovarnak/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../032_Inheritance/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/033_InheritanceChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/out/production/033_InheritanceChallenge/com/tovarnak/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/out/production/033_InheritanceChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/out/production/033_InheritanceChallenge/com/tovarnak/Mercedes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/out/production/033_InheritanceChallenge/com/tovarnak/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/src/com/tovarnak/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/src/com/tovarnak/Mercedes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../033_InheritanceChallenge/src/com/tovarnak/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/034_Composition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Dimensions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Motherboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/MyRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/PC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/RemoteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Resolution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Television.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/out/production/034_Composition/com/tovarnak/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Dimensions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Monitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Motherboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/MyRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/PC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/RemoteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Resolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Television.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../034_Composition/src/com/tovarnak/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/035_Encapsulation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/out/production/035_Encapsulation/com/tovarnak/EnhancedPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/out/production/035_Encapsulation/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/out/production/035_Encapsulation/com/tovarnak/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/src/com/tovarnak/EnhancedPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../035_Encapsulation/src/com/tovarnak/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/036_EncapsulationChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/out/production/036_EncapsulationChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/out/production/036_EncapsulationChallenge/com/tovarnak/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../036_EncapsulationChallenge/src/com/tovarnak/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/037_polymorphism.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/out/production/037_polymorphism/com/tovarnak/ForgettableMovie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/out/production/037_polymorphism/com/tovarnak/IndependenceDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/out/production/037_polymorphism/com/tovarnak/Jaws.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/out/production/037_polymorphism/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/out/production/037_polymorphism/com/tovarnak/MazeRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/out/production/037_polymorphism/com/tovarnak/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/out/production/037_polymorphism/com/tovarnak/StarWars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../037_polymorphism/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/038_polymorphismChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/out/production/038_polymorphismChallenge/com/tovarnak/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/out/production/038_polymorphismChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/out/production/038_polymorphismChallenge/com/tovarnak/Mercedes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/out/production/038_polymorphismChallenge/com/tovarnak/Porsche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/out/production/038_polymorphismChallenge/com/tovarnak/Skoda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../038_polymorphismChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/039_MasterChallengeExercise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/out/production/039_MasterChallengeExercise/com/tovarnak/Additions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/out/production/039_MasterChallengeExercise/com/tovarnak/BaseHamburger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/out/production/039_MasterChallengeExercise/com/tovarnak/Deluxe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/out/production/039_MasterChallengeExercise/com/tovarnak/HealthyBurger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/out/production/039_MasterChallengeExercise/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/src/com/tovarnak/Additions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/src/com/tovarnak/BaseHamburger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/src/com/tovarnak/Deluxe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/src/com/tovarnak/HealthyBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../039_MasterChallengeExercise/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/040_Arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/out/production/040_Arrays/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../040_Arrays/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/041_ArraysChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/out/production/041_ArraysChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../041_ArraysChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/042_referencesVsValueTypes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/out/production/042_referencesVsValueTypes/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../042_referencesVsValueTypes/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/043_minElementChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/out/production/043_minElementChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../043_minElementChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/044_reverseArrayChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/out/production/044_reverseArrayChallenge/com/tovarnak/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../044_reverseArrayChallenge/src/com/tovarnak/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/ddddddddddddddddddd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/out/production/ddddddddddddddddddd/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/out/production/ddddddddddddddddddd/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/src/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/checkPassword/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/a.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/kNN.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/out/production/kNN/Draw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/out/production/kNN/kNN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/src/Draw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercises/kNN/src/kNN.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1965842468">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="285" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="285" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1265085062">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="27" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,32 +510,18 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/HelloWorld.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
-  </component>
+  <component name="ProjectId" id="1TDJHm7aaEXHAELKVcrWIGxAVMJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536767859123" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../byteShortInt" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../002_Variables" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,16 +536,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="HelloWorld" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="001_HelloWorld" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -141,92 +554,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35458a95-c03b-4354-8328-713779dab0ad" name="Default Changelist" comment="" />
-      <created>1536164875957</created>
+      <changelist id="73becdb9-fe18-4577-99ab-063d6d40e1a8" name="Default Changelist" comment="" />
+      <created>1572988649295</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536164875957</updated>
+      <updated>1572988649295</updated>
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" x="1056" y="211" width="284" height="475" id="Project" order="0" weight="0.19060403" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Run" order="8" weight="0.47651008" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
