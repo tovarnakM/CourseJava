@@ -5,7 +5,7 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 public class Main {
 
     public static void main(String[] args) {
-        printSquareStar(5);
+        
     }
 
     public static boolean isPalindrome(int number){
@@ -289,26 +289,24 @@ public class Main {
         }
 
         for (int i = 0; i < number; i++){
-            System.out.print("*");
-        }
-        System.out.println();
-        for (int i = 0; i < number-2; i++){
-            System.out.print("*");
-            for (int y = 0; y < number; y++) {
-                if (y == i){
+            for (int j = 0; j < number; j++) {
+                if (i == 0) {
                     System.out.print("*");
-                }else if (y == number - 3 - i){
+                } else if (i == number - 1) {
                     System.out.print("*");
-                } else if (y == number - 2){
+                } else if (j == 0) {
                     System.out.print("*");
-                }else {
+                } else if (j == number - 1) {
+                    System.out.print("*");
+                } else if (j == i) {
+                    System.out.print("*");
+                } else if (j == number - 1 - i) {
+                    System.out.print("*");
+                } else {
                     System.out.print(" ");
                 }
             }
             System.out.println();
-        }
-        for (int i = 0; i < number; i++){
-            System.out.print("*");
         }
     }
 }
