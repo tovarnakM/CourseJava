@@ -1,11 +1,12 @@
 package com.company;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        
+        minAndMaxInputChallenge();
     }
 
     public static boolean isPalindrome(int number){
@@ -308,6 +309,90 @@ public class Main {
             }
             System.out.println();
         }
+    }
+
+    public static void pascalTriangle(int number){
+        if (number <= 0){
+            System.out.println("Invalid Value");
+            return;
+        }
+
+        if (number == 1){
+            System.out.println("1");
+            return;
+        }
+
+        if (number == 2){
+            System.out.println(" 1");
+            System.out.print("1 1");
+            return;
+        }
+
+        System.out.println("1");
+        System.out.print("1 1");
+        System.out.println();
+        long lastRow[] = new long[2];
+        long currentRow[];
+        lastRow[0] = 1;
+        lastRow[1] = 1;
+
+        for (int i = 3; i <= number;i++){
+            currentRow = new long[i];
+            currentRow[0] = 1;
+            currentRow[i-1] = 1;
+            for (int y = 1; y < i - 1; y++){
+                currentRow[y] = lastRow[y-1] + lastRow[y];
+            }
+
+            for (int j = 0; j < currentRow.length;j++){
+                System.out.print(currentRow[j]+" ");
+            }
+            System.out.println();
+            lastRow = new long[i];
+            for (int x = 0; x < currentRow.length; x++){
+                lastRow[x] = currentRow[x];
+            }
+        }
+    }
+
+    public static void minAndMaxInputChallenge() {
+        int max = 0;
+        int min = 0;
+        int countEnteredNumber = 0;
+        Scanner scanner = new Scanner(System.in);
+        while (true){
+            System.out.println("Enter valid number:");
+            boolean hasEnteredValidNumber = scanner.hasNextInt();
+            if (hasEnteredValidNumber){
+                countEnteredNumber++;
+                int enteredNumber = scanner.nextInt();
+
+                if (countEnteredNumber == 1){
+                    max = enteredNumber;
+                    min = enteredNumber;
+                }
+
+                if (enteredNumber > max){
+                    max = enteredNumber;
+                }else if (enteredNumber < min){
+                    min = enteredNumber;
+                }
+
+            }else {
+                if (countEnteredNumber == 0){
+                    System.out.println("0 correct entries, I can not classify number to min or max");
+                    break;
+                }else if (countEnteredNumber == 1){
+                    System.out.println("Max and Min numbers are: " + max);
+                    break;
+                }else {
+                    System.out.println("MAX number is: " + max + " and MIN number is: " + min);
+                    break;
+                }
+            }
+            scanner.nextLine();
+        }
+        scanner.close();
     }
 }
 
