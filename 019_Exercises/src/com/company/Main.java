@@ -1,12 +1,11 @@
 package com.company;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        minAndMaxInputChallenge();
+
     }
 
     public static boolean isPalindrome(int number){
@@ -393,6 +392,70 @@ public class Main {
             scanner.nextLine();
         }
         scanner.close();
+    }
+
+    public static void inputThenPrintSumAndAverage(){
+        long sum = 0;
+        double avg = 0;
+        int count = 0;
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            boolean hasEnteredInt = scanner.hasNextInt();
+            if (hasEnteredInt) {
+                int number = scanner.nextInt();
+                scanner.nextLine();
+                count++;
+                sum += number;
+            } else {
+                if (count == 0){
+                    System.out.println("SUM = " + sum + " AVG = " + (int)avg);
+                    scanner.close();
+                    break;
+                }
+                avg = Math.round((double) sum/(double) count);
+                System.out.println("SUM = " + sum + " AVG = " + (int)avg);
+                scanner.close();
+                break;
+            }
+        }
+    }
+
+    public static int getBucketCount(double width, double height, double areaPerBucket, int extraBuckets){
+        if (width <= 0 || height <= 0 || areaPerBucket <= 0 || extraBuckets < 0){
+            return -1;
+        }
+        double area = width * height;
+        int count = 0;
+        while (area > 0){
+            area -= areaPerBucket;
+            count++;
+        }
+        return count-extraBuckets;
+    }
+
+    public static int getBucketCount(double width, double height, double areaPerBucket){
+        if (width <= 0 || height <= 0 || areaPerBucket <= 0){
+            return -1;
+        }
+        double area = width * height;
+        int count = 0;
+        while (area > 0){
+            area -= areaPerBucket;
+            count++;
+        }
+        return count;
+    }
+
+    public static int getBucketCount(double area, double areaPerBucket){
+        if (area <= 0 || areaPerBucket <= 0){
+            return -1;
+        }
+        int count = 0;
+        while (area > 0){
+            area -= areaPerBucket;
+            count++;
+        }
+        return count;
     }
 }
 
