@@ -7,11 +7,12 @@ public class Album {
 
     private Song song;
     private Scanner scanner = new Scanner(System.in);
-    private ArrayList<Song> songs = new ArrayList<>();
+    private SongList songs;
     private String name;
 
     public Album(String name) {
         this.name = name;
+        this.songs = new SongList();
     }
 
     public void addSongToAlbum(){
@@ -19,15 +20,13 @@ public class Album {
         String name = scanner.nextLine();
         System.out.print("Enter duration of song: ");
         String duration = scanner.nextLine();
-        songs.add(new Song(name, duration));
-        System.out.println("Item added to albums");
+        songs.addSong(new Song(name, duration));
     }
 
     public void showAlbum(){
-        for (int i = 0; i < songs.size(); i++){
-            System.out.println((i+1) + ". " + songs.get(i).getTitle() + "---> " + songs.get(i).getDuration());
-        }
+        songs.showAlbumList();
     }
+
 
     public String getName() {
         return name;
@@ -35,5 +34,23 @@ public class Album {
 
     public Song getSong() {
         return song;
+    }
+
+    class SongList {
+        private ArrayList<Song> songs;
+
+        public SongList() {
+            this.songs = new ArrayList<>();
+        }
+
+        public void addSong(Song song){
+            this.songs.add(song);
+        }
+
+        public void showAlbumList(){
+            for (int i = 0; i < songs.size(); i++){
+                System.out.println((i+1) + ". " + songs.get(i).getTitle() + "---> " + songs.get(i).getDuration());
+            }
+        }
     }
 }
