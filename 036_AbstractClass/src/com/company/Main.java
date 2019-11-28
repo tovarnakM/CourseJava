@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -26,12 +28,20 @@ public class Main {
                 list.addItem(new Node(s));
         }*/
 
-        list.addItem(new Node("A"));
-        list.addItem(new Node("B"));
-        list.addItem(new Node("C"));
-        list.addItem(new Node("D"));
         list.addItem(new Node("E"));
-        list.addItem(new Node("Cc"));
+        list.addItem(new Node("B"));
+        list.addItem(new Node("A"));
+        list.addItem(new Node("C"));
+        list.addItem(new Node("F"));
         list.traverse(list.getRoot());
+
+        MyLinkList myLinkList = new MyLinkList();
+        myLinkList.add(5);
+        myLinkList.add(6);
+        myLinkList.add(6);
+        myLinkList.add(6);
+        myLinkList.add(7);
+        myLinkList.show();
     }
 }
+
