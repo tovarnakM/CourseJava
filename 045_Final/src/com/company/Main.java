@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        SomeClass one = new SomeClass("one");
+        /*SomeClass one = new SomeClass("one");
         SomeClass two = new SomeClass("two");
         SomeClass three = new SomeClass("three");
 
@@ -12,7 +12,7 @@ public class Main {
         System.out.println(two.getInstanceNumber());
         System.out.println(three.getInstanceNumber());
 
-        System.out.println(Math.PI);
+        System.out.println(Math.PI);*/
 
         int pw = 674312;
         Password password = new ExtendedPassword(pw);
@@ -24,9 +24,10 @@ public class Main {
         password.letMeIn(-1);
         password.letMeIn(674312);
 
-        System.out.println("****************************************");
+        /*System.out.println("****************************************");
         SIBTest sibTest = new SIBTest();
         sibTest.someMethod();
-        System.out.println("Owner is " + SIBTest.owner);
+        System.out.println("Owner is " + SIBTest.owner);*/
+
     }
 }
