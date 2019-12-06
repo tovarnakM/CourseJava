@@ -40,6 +40,8 @@ public class Main {
         printList(priceSeats);
 
 
+
+
         /*
         Collections.shuffle(seatCopy);
         System.out.println("Printing seatCopy");
