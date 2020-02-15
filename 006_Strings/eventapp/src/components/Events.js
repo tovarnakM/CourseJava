@@ -30,10 +30,11 @@ class Events extends Component {
             <div>
                 <Header />
                 <div className="searchBox">
-                    <div style={{fontSize: '1.35rem'}}>Find your event here:</div>
+                    <div style={{fontSize: '1.1rem'}}>Find your event here:</div>
                     <input 
                         className="searchBox-property" 
-                        type="text" 
+                        type="text"
+                        placeholder="Type something ..." 
                         onChange={(event) => this.handleInput(event)}    
                     />
                 </div>
