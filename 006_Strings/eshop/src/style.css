@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none !important; }
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffed4b; }
+
+.cardList {
+  background-color: 'red';
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  margin-left: 9rem; }
+  .cardList__item {
+    background-color: orange;
+    width: 45%;
+    height: 50vh;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem; }
+
+.eventInfo {
+  text-align: center;
+  margin-top: 4rem; }
+
+.info_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+  margin-right: 3rem; }
+  .info_container div {
+    font-size: 1.2rem;
+    margin-left: 2rem; }
+
+.header {
+  width: 100%;
+  height: 8vh;
+  background: #fdcd3b;
+  display: flex;
+  align-items: center; }
+  .header__left {
+    width: 50%;
+    margin-left: 1.3rem; }
+  .header__right {
+    width: 47%;
+    text-align: end; }
+  .header-button {
+    background-color: #ffed4b;
+    border: none;
+    padding: 0.65rem 1.35rem;
+    border-radius: 3rem;
+    font-size: 1rem; }
+    .header-button:hover {
+      background-color: #479671;
+      cursor: pointer; }
+
+.searchBox {
+  text-align: center;
+  margin: 3rem; }
+  .searchBox-property {
+    margin-top: 0.3rem;
+    height: 42px;
+    font-size: 1.35rem;
+    padding: 0rem 0.5rem; }
+
+.section-home {
+  width: 100%;
+  background: linear-gradient(120deg, #fdcd3b 53%, #ffed4b 53%);
+  text-align: center;
+  height: 100vh;
+  font-family: 'Slabo 27px', serif; }
+  .section-home_pageTitle {
+    font-size: 6rem;
+    padding-top: 10rem; }
+    .section-home_pageTitle-sub {
+      font-size: 3rem;
+      padding: 1rem;
+      margin-right: 2.3rem; }
+  .section-home_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 3rem; }
+    .section-home_wrapper_left {
+      width: 15%;
+      text-align: center; }
+    .section-home_wrapper_right {
+      width: 20%;
+      text-align: center; }
+    .section-home_wrapper-button {
+      padding: 1.2rem 2.7rem;
+      border: none;
+      font-size: 1.4rem;
+      background-color: #479671;
+      border-radius: 5rem;
+      cursor: pointer; }
+      .section-home_wrapper-button:hover {
+        background-color: white; }

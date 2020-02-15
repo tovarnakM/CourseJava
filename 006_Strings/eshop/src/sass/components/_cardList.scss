@@ -1,0 +1,34 @@
+.cardList {
+    background-color: 'red';
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    margin-left: 9rem;
+    
+
+    &__item{
+        background-color: orange;
+        width: 45%;
+        height: 50vh;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
+        border-radius: 0.5rem;
+    }
+}
+
+.eventInfo {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.info_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+    margin-right: 3rem;
+
+    div {
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+}

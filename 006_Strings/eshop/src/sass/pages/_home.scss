@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+.section-home {
+    width: 100%;
+    background: linear-gradient(120deg, $color-primary 53%, $color-secondary 53%);
+    text-align: center;
+    height: 100vh;
+    font-family: 'Slabo 27px', serif;
+
+    &_pageTitle {
+        font-size: 6rem;
+        padding-top: 10rem;
+
+        &-sub {
+            font-size: 3rem;
+            padding: 1rem;
+            margin-right: 2.3rem;
+        }
+    }
+    &_wrapper {
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+
+        &_left {
+            width: 15%;
+            text-align: center;
+        }
+        &_right {
+            width: 20%;
+            text-align: center;
+        }
+
+        &-button {
+            padding: 1.2rem 2.7rem;
+            border: none;
+            font-size: 1.4rem;
+            background-color: $color-home-button;
+            border-radius: 5rem;
+            cursor: pointer;
+
+            &:hover {
+                background-color: white;
+            }
+        }
+    }
+}

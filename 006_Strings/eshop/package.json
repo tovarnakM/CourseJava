@@ -1,5 +1,5 @@
 {
-  "name": "eventapp",
+  "name": "eshop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,13 +8,15 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile:sass": "node-sass src/sass/main.scss src/style.css -w"
   },
   "eslintConfig": {
     "extends": "react-app"
