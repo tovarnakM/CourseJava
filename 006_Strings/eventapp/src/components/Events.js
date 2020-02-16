@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CardList from './CardList';
 import Header from './Header';
+import { firebase } from '../Firebase';
  
 class Events extends Component {
 
@@ -26,16 +27,35 @@ class Events extends Component {
         this.setState({filteredEvents: filtered})
     }
 
+    handleSignOut = () => {
+        firebase.auth().signOut().then(() => {
+            this.props.history.push('/');  
+        })        
+   }
+
     render() {
         return (
             <div>
-                <Header />
+                {
+                    this.props.isAdmin ?
+                        <Header>
+                            <div className="header__right">
+                                <button onClick={() => this.handleSignOut()} className="header-button">Sing out</button>
+                            </div>
+                        </Header>
+
+                    : <Header />
+                }
+                
+                <div className="admin_title">
+                    Discover Events.
+                </div>
+
                 <div className="searchBox">
-                    <div style={{fontSize: '1.1rem'}}>Find your event here:</div>
                     <input 
                         className="searchBox-property" 
                         type="text"
-                        placeholder="Type something ..." 
+                        placeholder="Find your event here ..." 
                         onChange={(event) => this.handleInput(event)}    
                     />
                 </div>

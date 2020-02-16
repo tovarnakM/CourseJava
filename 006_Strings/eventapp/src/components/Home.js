@@ -7,7 +7,7 @@ const Home = () => {
             <div className="section-home_pageTitle-sub">Discover now.</div>
             <div className="section-home_wrapper">
                 <div className="section-home_wrapper_left">
-                    <Link to="/edit_event">
+                    <Link to="/sign_in">
                         <button className="section-home_wrapper-button">I'm Admin</button>
                     </Link>
                 </div>

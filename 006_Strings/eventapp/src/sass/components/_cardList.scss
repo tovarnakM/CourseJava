@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0.5rem;
-    margin-left: 9rem;
+    margin-left: 5rem;
 
     &__item{
         background-color: orange;
-        width: 45%;
+        width: 30%;
         height: 50vh;
         margin-bottom: 0.5rem;
         margin-left: 1rem;
@@ -24,28 +24,17 @@
     margin-top: 4rem;
 }
 
-.info_container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.6rem;
-    margin-right: 3rem;
-
-    div {
-        font-size: 1.2rem;
-        margin-left: 2rem;
-    }
-}
-
 .addEventToExisting {
     height: 100%;
+    background-color: orange;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    font-size: 4.8rem;
+    font-size: 3rem;
 
     &:hover {
-        h1, p {
+        h1 {
             display: inline-block;
             color: white; 
         }
@@ -53,4 +42,11 @@
     p {
         font-size: 2.2rem;
     }
+}
+
+.admin_title {
+    font-family: 'Slabo 27px', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
 }

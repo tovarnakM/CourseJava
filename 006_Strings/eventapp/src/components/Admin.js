@@ -6,7 +6,7 @@ class Admin extends Component {
     render() { 
         return (
             <div>
-                <Events isAdmin={true}/>
+                <Events {...this.props} isAdmin={true}/>
             </div>
         );
     }
