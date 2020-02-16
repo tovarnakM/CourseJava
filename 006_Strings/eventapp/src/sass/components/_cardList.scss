@@ -1,5 +1,4 @@
 .cardList {
-    background-color: 'red';
     display: flex;
     flex-wrap: wrap;
     padding: 0.5rem;
@@ -16,7 +15,6 @@
         
         &:hover {
             transform: translateY(-0.1rem);
-            color: white;
         }
     }
 }

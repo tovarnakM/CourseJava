@@ -7,14 +7,15 @@ class Events extends Component {
     state = {
         events: [],
         searchBox: '',
-        filteredEvents: []
+        filteredEvents: [],
+        isLoading: true,
     }
 
     componentDidMount(){
         fetch('http://localhost:3001/events')
             .then(resp => resp.json())
             .then(data => {
-                this.setState({filteredEvents: data, events: data})
+                this.setState({filteredEvents: data, events: data, isLoading: false})
             })
     }
 
@@ -38,7 +39,22 @@ class Events extends Component {
                         onChange={(event) => this.handleInput(event)}    
                     />
                 </div>
-                <CardList events={this.state.filteredEvents} isAdmin={this.props.isAdmin} />
+
+                {
+                    this.state.isLoading ? 
+                        <div>
+                            <h1 style={{textAlign: 'center'}}>
+                                Loading ...
+                            </h1>
+                        </div>
+                    :
+                    
+                    <CardList 
+                        events={this.state.filteredEvents} 
+                        isAdmin={this.props.isAdmin}     
+                    />
+                }
+
             </div>
         );
     }
