@@ -7,8 +7,8 @@ class SignIn extends Component {
     state = {
         email: '',
         password: '',
-        successLogin: null,
-        loading: false
+        loading: false,
+        successLogin: null
     }
 
     componentDidMount(){
@@ -25,16 +25,16 @@ class SignIn extends Component {
                 this.setState({loading: false});
                 this.props.history.push('/edit_event');
         }).catch(error => {
-            this.setState({successLogin: "fail", loading: false})
+            this.setState({successLogin: false, loading: false})
         })
         this.setState({email: '', password: ''})
     }
 
     handleInput = (input, event) => {
        if (input === "email"){
-           this.setState({email: event.target.value})
+           this.setState({email: event.target.value, successLogin: null})
        }else if (input === "password"){
-           this.setState({password: event.target.value})
+           this.setState({password: event.target.value, successLogin: null})
        }
     }
 
@@ -53,6 +53,7 @@ class SignIn extends Component {
                             Authentification, please wait ...
                         </div>
                     :
+
                     <div>
                         <div>
                             <input 
@@ -73,6 +74,14 @@ class SignIn extends Component {
                         </div>
                         <button onClick={() => this.handleSubmit()}>Submit</button>
                     </div>
+                }
+                {
+                    this.state.successLogin === null ?
+                        null
+                    :
+                        <div style={{marginTop: '1rem', color: 'red'}}>
+                            Wrong username or password
+                        </div>
                 }
                 
                 </div>
