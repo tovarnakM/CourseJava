@@ -8,14 +8,8 @@ class SignIn extends Component {
         email: '',
         password: '',
         loading: false,
-        successLogin: null
-    }
+        successLogin: null,
 
-    componentDidMount(){
-        var user = firebase.auth().currentUser;
-        if (user !== null){
-            this.props.history.push("/edit_event")
-        }    
     }
 
     handleSubmit = () => {
@@ -25,7 +19,7 @@ class SignIn extends Component {
                 this.setState({loading: false});
                 this.props.history.push('/edit_event');
         }).catch(error => {
-            this.setState({successLogin: false, loading: false})
+            this.setState({successLogin: false, loading: false});
         })
         this.setState({email: '', password: ''})
     }

@@ -40,8 +40,7 @@ html {
   justify-content: center;
   font-size: 3rem; }
   .addEventToExisting:hover h1 {
-    display: inline-block;
-    color: white; }
+    display: inline-block; }
   .addEventToExisting p {
     font-size: 2.2rem; }
 

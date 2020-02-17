@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CardList from './CardList';
 import Header from './Header';
 import { firebase } from '../Firebase';
- 
+
 class Events extends Component {
 
     state = {
@@ -12,12 +12,12 @@ class Events extends Component {
         isLoading: true,
     }
 
-    componentDidMount(){
-        fetch('http://localhost:3001/events')
+    componentDidMount(){ 
+        fetch('http://localhost:3001/events/')
             .then(resp => resp.json())
             .then(data => {
                 this.setState({filteredEvents: data, events: data, isLoading: false})
-            })
+        })
     }
 
     handleInput = (event) => {
@@ -29,7 +29,7 @@ class Events extends Component {
 
     handleSignOut = () => {
         firebase.auth().signOut().then(() => {
-            this.props.history.push('/');  
+            this.props.history.push("/")
         })        
    }
 
