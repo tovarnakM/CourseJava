@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CardList = (props) => {
-    
+        
     const renderEvents = () => {
         return props.events.map((event) => (
             <div key={event.id} className="cardList__item">
@@ -12,7 +13,12 @@ const CardList = (props) => {
                     <div style={{fontSize: '1.4rem', marginTop: '1.5rem'}}>Price: {event.price}$</div>
                     {
                         props.isAdmin ? 
-                        <button style={{marginTop: '0.85rem'}} className="header-button">Edit event</button>
+                            <Link to={`edit_event/${event.id}`}>
+                                <button
+                                    style={{marginTop: '0.85rem'}} 
+                                    className="header-button"
+                                >Edit event</button>
+                            </Link>
                         :null
                     }
                 </div>
@@ -39,12 +45,12 @@ const CardList = (props) => {
                     {
                         props.isAdmin ?
                             <div className="cardList__item">
-                                <div className="addEventToExisting" >
+                                <Link style={{textDecoration: 'none', color: 'black'}} to="/add_event" div className="addEventToExisting">
                                     <div>
                                         <h1>+</h1>
                                     </div>
                                     <p>Add New Event</p>
-                                </div>
+                                </Link>
                             </div>
                         :null
                     }

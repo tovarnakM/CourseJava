@@ -1,41 +1,32 @@
 {
   "events": [
     {
-      "id": 1,
-      "title": "Roland Garos",
-      "date": "30.5.2020",
-      "location": "France",
-      "price": 200
-    },
-    {
       "id": 2,
       "title": "UEFA",
-      "date": "30.7.2021",
-      "location": "Germany",
+      "date": "30.7.2020",
+      "location": "England",
+      "price": "199"
+    },
+    {
+      "id": 3,
+      "title": "European Ligue",
+      "date": "19.6.2020",
+      "location": "Spain",
       "price": 150
     },
-
-    {
-        "id": 3,
-        "title": "UEFA",
-        "date": "30.7.2021",
-        "location": "Germany",
-        "price": 150
-      },
-
     {
       "id": 4,
       "title": "Eminem",
       "date": "1.1.2021",
       "location": "USA",
-      "price": 150
+      "price": 300
     },
     {
       "id": 5,
-      "title": "Beer festival",
-      "date": "2.4.2020",
-      "location": "Slovakia",
-      "price": 20
+      "title": "Wimbledon",
+      "date": "23.6.2020",
+      "location": "London",
+      "price": "199"
     }
   ]
 }

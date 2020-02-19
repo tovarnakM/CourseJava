@@ -83,26 +83,26 @@ html {
     border-radius: 1rem;
     border: none; }
 
-.sign_in {
+.form {
   margin-top: 2rem;
   text-align: center; }
-  .sign_in__title {
+  .form__title {
     font-family: 'Slabo 27px', serif;
     font-size: 5.8rem; }
-  .sign_in input {
+  .form input {
     padding: 1rem 2rem;
     margin-top: 1.3rem;
     border-radius: 2.2rem;
     border: none;
     font-size: 1.2rem; }
-  .sign_in button {
+  .form button {
     margin-top: 2rem;
     background-color: #fdcd3b;
     padding: 1rem 2rem;
     border: none;
     border-radius: 1.85rem;
     font-size: 1.5rem; }
-    .sign_in button:hover {
+    .form button:hover {
       background-color: #479671;
       cursor: pointer; }
 

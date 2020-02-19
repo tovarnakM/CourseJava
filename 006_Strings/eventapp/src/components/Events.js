@@ -13,7 +13,7 @@ class Events extends Component {
     }
 
     componentDidMount(){ 
-        fetch('http://localhost:3001/events/')
+        fetch('http://localhost:3001/events')
             .then(resp => resp.json())
             .then(data => {
                 this.setState({filteredEvents: data, events: data, isLoading: false})

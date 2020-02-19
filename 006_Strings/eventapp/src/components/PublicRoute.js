@@ -8,7 +8,7 @@ export const PublicRoute = ({
 }) => {
     return <Route {...rest} component={(props) => (
         user ?
-            <Redirect to="/edit_event" />
+            <Redirect to="/admin" />
         :
             <Component {...props} user={user}/>
     )}/>

@@ -9,7 +9,6 @@ class SignIn extends Component {
         password: '',
         loading: false,
         successLogin: null,
-
     }
 
     handleSubmit = () => {
@@ -17,7 +16,7 @@ class SignIn extends Component {
         firebase.auth().signInWithEmailAndPassword(this.state.email,this.state.password)
             .then(() => {
                 this.setState({loading: false});
-                this.props.history.push('/edit_event');
+                this.props.history.push('/admin');
         }).catch(error => {
             this.setState({successLogin: false, loading: false});
         })
@@ -35,9 +34,9 @@ class SignIn extends Component {
     render() { 
         return (
             <div>
-                 <Header />
-                <div className="sign_in">
-                    <div className="sign_in__title">
+                <Header />
+                <div className="form">
+                    <div className="form__title">
                         Sign in.
                     </div>
 
