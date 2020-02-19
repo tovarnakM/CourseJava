@@ -12,7 +12,7 @@ class EditEvent extends Component {
 
     componentDidMount(){
         const id = this.props.match.params.id;
-        fetch(`http://localhost:3001/events/${id}`)
+        fetch(`http://localhost:3005/event/${id}`)
         .then(resp => resp.json())
         .then(data => {
             this.setState({event: data, loading: false})   
@@ -46,16 +46,19 @@ class EditEvent extends Component {
 
     handleEditButton = () => {
         const id = this.props.match.params.id;
-        const event = this.state.event;
-        console.log(event)
-        axios.put(`http://localhost:3001/events/${id}/`, {
-            id: id,
-            ...this.state.event
-        }).then(resp => {
-            this.props.history.push("/admin");
-        }).catch(error => {
-            console.log("fail", error);
-        });  
+    
+        fetch(`http://localhost:3005/event/${id}/`, {
+            method: 'put',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(this.state.event),
+        })
+        .then(this.props.history.push('/admin'))
+        .catch(e => {
+            console.log("failed");
+        })
     }
 
     handleDeleteButton = () => {
