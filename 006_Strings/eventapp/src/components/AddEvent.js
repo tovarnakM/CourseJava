@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import { Link } from 'react-router-dom';
-const axios = require('axios');
  
 class AddEvent extends Component {
 
@@ -38,17 +37,22 @@ class AddEvent extends Component {
     }
 
     handleAddButton = () => {
-        axios.post('http://localhost:3001/events', {
-            id: 5,
-            ...this.state.event
-        }).then(resp => {
-            this.props.history.push("/admin");
-        }).catch(error => {
-            console.log(error);
-        });   
+        fetch('http://localhost:3005/add_event', {
+            method: 'post',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(this.state.event),
+        })
+        .then(this.props.history.push('/admin'))
+        .catch(e => {
+            console.log("Post failed");
+        })
     }
-
-    render() { 
+    
+    render() {
+        console.log(this.state.event)
         return (
             <div>
                 <Header>

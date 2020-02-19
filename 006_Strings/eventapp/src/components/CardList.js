@@ -45,7 +45,7 @@ const CardList = (props) => {
                     {
                         props.isAdmin ?
                             <div className="cardList__item">
-                                <Link style={{textDecoration: 'none', color: 'black'}} to="/add_event" div className="addEventToExisting">
+                                <Link style={{textDecoration: 'none', color: 'black'}} to="/add_event" className="addEventToExisting">
                                     <div>
                                         <h1>+</h1>
                                     </div>

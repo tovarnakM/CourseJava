@@ -12,12 +12,11 @@ class Events extends Component {
         isLoading: true,
     }
 
-    componentDidMount(){ 
-        fetch('http://localhost:3001/events')
-            .then(resp => resp.json())
-            .then(data => {
-                this.setState({filteredEvents: data, events: data, isLoading: false})
-        })
+    componentDidMount(){
+        
+        fetch('http://localhost:3005/events')
+            .then(response => response.json())
+            .then(data => this.setState({filteredEvents: data, events: data, isLoading: false}))
     }
 
     handleInput = (event) => {
@@ -34,6 +33,7 @@ class Events extends Component {
    }
 
     render() {
+        console.log(this.state.events)
         return (
             <div>
                 {
